@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   #SELECT COUNT * FROM(students) WHERE gpa > 3.9;
-  # SELECT MAX(gpa)FROM students
+  SELECT MAX(gpa) FROM students
 end
 
 def lowest_student_gpa
